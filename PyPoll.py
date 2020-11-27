@@ -25,6 +25,7 @@ candidate_votes = {}
 winning_candidate = ""
 winning_count = 0
 winning_percentage = 0
+
 # Open the election results and read the file
 with open(file_to_load) as election_data:
     # To do: perform analysis.
@@ -48,6 +49,8 @@ with open(file_to_load) as election_data:
             candidate_votes[candidate_name] = 0
         # Add a vote to that candidate's count
         candidate_votes[candidate_name] += 1
+
+# Save the results to our text file.
 with open(file_to_save, "w") as txt_file:
     # Print the final vote count to the terminal.
     election_results = (
@@ -58,6 +61,7 @@ with open(file_to_save, "w") as txt_file:
     print(election_results, end="")
     # Save the final vote count to the text file.
     txt_file.write(election_results)
+
     # 1. Iterate through the candidate list.
     for candidate_name in candidate_votes:
         #Votes for each candidate name(value of dictionary)
@@ -70,6 +74,7 @@ with open(file_to_save, "w") as txt_file:
         print(candidate_results)
         # Save the candidate results to our text file.
         txt_file.write(candidate_results)
+
         #  To do: print out each candidate's name, vote count, and percentage of
         # votes to the terminal.
         # Determine winning vote count and candidate
@@ -83,6 +88,7 @@ with open(file_to_save, "w") as txt_file:
             #print(winning_percentage)
             # And, set the winning_candidate equal to the candidate's name.
             winning_candidate = candidate_name
+            
     # Print the winning candidate's results to the terminal.       
     winning_candidate_summary = (
         f"-------------------------\n"
