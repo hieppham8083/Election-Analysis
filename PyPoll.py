@@ -88,7 +88,7 @@ with open(file_to_save, "w") as txt_file:
             #print(winning_percentage)
             # And, set the winning_candidate equal to the candidate's name.
             winning_candidate = candidate_name
-            
+
     # Print the winning candidate's results to the terminal.       
     winning_candidate_summary = (
         f"-------------------------\n"
