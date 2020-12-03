@@ -11,6 +11,7 @@ Create a text file of election results by Python to go through [election_results
   6. The winner of the election based on popular vote.
   
 ## Project Results
+Refer to [election_results.txt](../main/analysis/election_results.txt)
   ![alt text](../main/Resources/election_results.png "Election Results")
   
 ## Election Results Summary
