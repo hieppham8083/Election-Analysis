@@ -2,7 +2,7 @@
 Refer to [PyPoll_Challenge.py ](../main/PyPoll_Challenge.py).
 
 ## Overview of Project
-Create a text file of election results by Python to go through[election_results.csv](../main/Resources/election_results.csv). Here are the tasks included:
+Create a text file of election results by Python to go through [election_results.csv](../main/Resources/election_results.csv), and calculating the items below:
   1. Total Votes.
   2. County Votes.
   3. List of candidates who received votes.
