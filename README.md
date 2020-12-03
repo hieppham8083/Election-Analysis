@@ -13,3 +13,9 @@ Create a text file of election results by Python to go through [election_results
 ## Project Results
   ![alt text](../main/Resources/election_results.png "Election Results")
   
+## Election Results Summary
+  - The total amount of votes were 369,711. 
+  - The largest county turnout is Denver with 82.8%.
+  - The winner of election is Diana DeGette with 73.8% (272,892) of all votes.
+  - Base on election_results.csv, we can calculate which candidate was the most popular within a county. 
+  
